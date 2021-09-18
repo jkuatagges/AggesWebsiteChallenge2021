@@ -47,8 +47,7 @@ With the asssumption that you are using frontend framework of your choice create
 
 - [ ] Make it look like a landing site and as attractive as you can
 - [ ] Remove unnecessary clutter
-- [ ] Add pictures for various GEGIS and Spatial related stuff.You can link up with 
-[![image](https://img.shields.io/twitter/follow/okomojacob?style=social)](https://twitter.com/okomojacob) on twitter or WhatsApp to provide you with Images and other assests.
+- [ ] Add pictures for various GEGIS and Spatial related stuff.You can link up with [Okomo on Twitter](https://twitter.com/okomojacob) or WhatsApp to provide you with Images and other assests.
 - [ ] Remove navigation bar above the footer
 
 **About**
@@ -69,7 +68,7 @@ With the asssumption that you are using frontend framework of your choice create
 - [ ] Add a small description of each project.
 - [ ] Provide links for individual project content
 
-**GEGIS(GIS)**
+**GEGIS(GIS) Past Papers**
 - [ ] Add a section where students can view and access revision papers for any unit of their choice
 
 **Contact us**
@@ -90,7 +89,7 @@ With the asssumption that you are using frontend framework of your choice create
 - [ ] Make it a better place.
 
 
-### Technical spec
+### Technical specs
 
 Choose one of the following technical tracks to build the functionality described in the Functional spec that best suits your skill set:
 
@@ -186,7 +185,7 @@ git commit -m "Commit message 😇"
 ```shell
 git push --set-upstream origin <your_name>
 ```
-12. Make a [pull request](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github) to the sesWebsiteChallenge2021 Repo.
+12. Make a [pull request](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github) to the AggesWebsiteChallenge2021 Repo.
 
 
 **Submissions later than  0900hr EAT on 30th March 2021 will not be considered**
