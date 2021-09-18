@@ -48,7 +48,7 @@ With the asssumption that you are using frontend framework of your choice create
 - [ ] Make it look like a landing site and as attractive as you can
 - [ ] Remove unnecessary clutter
 - [ ] Add pictures for various GEGIS and Spatial related stuff.You can link up with 
-[![image](https://img.shields.io/twitter/contact/okomojacob?style=social)](https://twitter.com/okomojacob) on twitter or WhatsApp to provide you with Images and other assests.
+[![image](https://img.shields.io/twitter/follow/okomojacob?style=social)](https://twitter.com/okomojacob) on twitter or WhatsApp to provide you with Images and other assests.
 - [ ] Remove navigation bar above the footer
 
 **About**
