@@ -180,6 +180,7 @@ $ git status
 9. Add your changed files
 ```shell
 $ git add .
+$ git status
 ```
 10. Commit your changes
 ```shell
