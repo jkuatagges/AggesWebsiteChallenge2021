@@ -138,18 +138,21 @@ This will give us insight into how you approached the challenge.
 
 1. Fork the code challenge repository provided [here](https://github.com/jkuatagges/AggesWebsiteChallenge2021).
 2. Then git clone the forked repo by running this command in your local terminal
-3. ```shell
-4. git clone https://github.com/jkuatagges/AggesWebsiteChallenge2021.git
-5. ```
+3. Clone (Download) the remote repo to your local working machine:
+
+```shell
+ $ git clone https://github.com/jkuatagges/AggesWebsiteChallenge2021.git
+```
+
 6. Make a topic branch. In your github, keep the main branch clean. Pull all changes, make sure your repository is up to date.
 ```shell
-cd AggesWebsiteChallenge2021
+$ cd AggesWebsiteChallenge2021
 git pull origin main
 ```
 
 3. Create a new branch as follows
 ```shell
-git checkout -b <your_name> main
+$ git checkout -b <your_branch_name>
 e.g 
 git checkout -b frontend
 ```
@@ -164,21 +167,20 @@ $ git branch
 ```shell
 $ git pull
 ```
-
 6. Push the new branch to github
 ```shell
-$ git push origin -u <your_name>
+$ git push origin -u <your_branch_name>
 ```
-
-7. Make changes to the fork following the Challenge provided.
+7. Make changes to the fork following the challenge provided.
 
 8. Check the status of the repo
 ```shell
-git status
+$ git status
 ```
 9. Add your changed files
 ```shell
-git add .
+$ git add .
+$ git status
 ```
 10. Commit your changes
 ```shell
@@ -186,10 +188,12 @@ git commit -m "Commit message 😇"
 ```
 11. Push your code changes
 ```shell
-git push --set-upstream origin <your_name>
+git push --set-upstream origin your_branch_name
 ```
 12. Make a [pull request](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github) to the AggesWebsiteChallenge2021 Repo.
 
 
 **Submissions later than  0900hr EAT on 30th March 2021 will not be considered**
 
+### Credits
+1. [JKUAT SES](https://ses.jkuat.ac.ke/) was a sstarting point to get us started
