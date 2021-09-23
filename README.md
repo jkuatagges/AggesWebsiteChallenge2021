@@ -137,8 +137,11 @@ This will give us insight into how you approached the challenge.
 ### Working on the Challenge
 
 1. Fork the code challenge repository provided [here](https://github.com/jkuatagges/AggesWebsiteChallenge2021).
-
-2. Make a topic branch. In your github, keep the main branch clean. Pull all changes, make sure your repository is up to date.
+2. Then git clone the forked repo by running this command in your local terminal
+3. ```shell
+4. git clone https://github.com/jkuatagges/AggesWebsiteChallenge2021.git
+5. ```
+6. Make a topic branch. In your github, keep the main branch clean. Pull all changes, make sure your repository is up to date.
 ```shell
 cd AggesWebsiteChallenge2021
 git pull origin main
