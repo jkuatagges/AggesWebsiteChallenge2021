@@ -138,9 +138,12 @@ This will give us insight into how you approached the challenge.
 
 1. Fork the code challenge repository provided [here](https://github.com/jkuatagges/AggesWebsiteChallenge2021).
 2. Then git clone the forked repo by running this command in your local terminal
-3. ```shell
-4. git clone https://github.com/jkuatagges/AggesWebsiteChallenge2021.git
-5. ```
+3. Clone (Download) the remote repo to your local working machine:
+
+```shell
+  git clone https://github.com/jkuatagges/AggesWebsiteChallenge2021.git
+```
+
 6. Make a topic branch. In your github, keep the main branch clean. Pull all changes, make sure your repository is up to date.
 ```shell
 cd AggesWebsiteChallenge2021
@@ -149,7 +152,7 @@ git pull origin main
 
 3. Create a new branch as follows
 ```shell
-git checkout -b <your_name> main
+git checkout -b <your_branch_name>
 e.g 
 git checkout -b frontend
 ```
@@ -193,3 +196,5 @@ git push --set-upstream origin <your_name>
 
 **Submissions later than  0900hr EAT on 30th March 2021 will not be considered**
 
+### Credits
+1. [JKUAT SES](https://ses.jkuat.ac.ke/) was a sstarting point to get us started
