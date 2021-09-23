@@ -141,7 +141,7 @@ This will give us insight into how you approached the challenge.
 3. Clone (Download) the remote repo to your local working machine:
 
 ```shell
- $ git clone https://github.com/jkuatagges/AggesWebsiteChallenge2021.git
+ $ git clone https://github.com/myUsername/AggesWebsiteChallenge2021.git
 ```
 
 6. Make a topic branch. In your github, keep the main branch clean. Pull all changes, make sure your repository is up to date.
