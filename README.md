@@ -199,4 +199,4 @@ git push --set-upstream origin your_branch_name
 **Submissions later than  0900hr EAT on 30th March 2021 will not be considered**
 
 ### Credits
-1. [JKUAT SES](https://ses.jkuat.ac.ke/) was a sstarting point to get us started
+1. [JKUAT SES](https://ses.jkuat.ac.ke/) was a starting point to get us started
