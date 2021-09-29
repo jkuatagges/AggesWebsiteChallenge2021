@@ -1,5 +1,5 @@
 # JKUAT Agges Website Challenge for 2021
-The challenge is meant to conme up with a JKUAT AGGES website that will serve the club.This will ensure connection with Alumni and even easy naviagation to the Junior students
+The challenge is meant to come up with a JKUAT AGGES website that will serve the club.This will ensure connection with Alumni and even easy naviagation to the Junior students and connect them to resources.
 
 ### This challenge is yet to be launched and Timelines put in place.
 
@@ -32,7 +32,6 @@ Bonus points:
 -	Testing - Is there adequate test coverage?
 -	UX - Is your project easy to use and understand?
 -	UI -Is the User interface attractive to the viewer?
-
 
 ## Task
 With the asssumption that you are using frontend framework of your choice create a new JKUAT AGGES Club website that will serve the club. 
@@ -87,7 +86,6 @@ With the asssumption that you are using frontend framework of your choice create
 - [ ] Make it have same design as the parent website.
 - [ ] Redesign the blog section, so that one can be able to create profile, write a blogs and get user feedback via comments and claps.
 - [ ] Make it a better place.
-
 
 ### Technical specs
 
