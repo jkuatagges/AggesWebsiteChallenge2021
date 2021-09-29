@@ -55,6 +55,11 @@ With the asssumption that you are using frontend framework of your choice create
 - [ ] AGGES committee to be available.
 - [ ] AGGES committee to have profile picture, current position, linkedin link and twitter link
 
+**Our Team**
+- [ ] You should add the current execs and a section for Significant Alumni
+- [ ] Append all their contacts
+- [ ] They should be easily reachable by just one click
+
 **Events**
 - [ ] Update the events timeline.
 - [ ] If there is any upcoming event, it should be updatable easily
@@ -96,14 +101,14 @@ Choose one of the following technical tracks to build the functionality describe
 -	Full Stack: blend the former approaches, but be sure to demonstrate your competence across the stack
 
 #### Front-end
-
-Your project can be built using any JavaScript or CSS framework, though we encourage [ReactJS](https://reactjs.org/), Redux and CSS/SCSS. You are also welcome to use our [React-ions library](https://www.npmjs.com/package/react-ions) to help build your UI.
+- We prefer adoption of [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/) and [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for this stack. However you can use any tool to make your web design upto the desired appeal. <br>
+- Your project can be built using any JavaScript or CSS framework, though we encourage [ReactJS](https://reactjs.org/), Redux and CSS/SCSS. You are also welcome to use our [React-ions library](https://www.npmjs.com/package/react-ions) to help build your UI.
 
 Alternatively, feel free to swap out similar JavaScript frameworks such as Angular and UI kits such as Bootstrap. In addition to building the application.
 
 #### Back-end
-
-Your task is to build a REST API that can support the functionality of the site. Your project can be built using any API framework/language, though we encourage the use of [Django Rest Framework](http://www.django-rest-framework.org/)/Python. Your API should be able to:
+- You can use any database of your choice to enable storage of the various archives.
+- Your task is to build a REST API that can support the functionality of the site. Your project can be built using any API framework/language, though we encourage the use of [Django Rest Framework](http://www.django-rest-framework.org/)/Python. Your API should be able to:
 
 -   Perform CRUD actions for the gallery page, blog page, archive page, events page and about page.
 -   Perform analytics from the page e.g number of visits per day, user location
