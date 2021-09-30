@@ -48,6 +48,7 @@ With the asssumption that you are using frontend framework of your choice create
 - [ ] Remove unnecessary clutter
 - [ ] Add pictures for various GEGIS and Spatial related stuff.You can link up with [Okomo on Twitter](https://twitter.com/okomojacob) or WhatsApp to provide you with Images and other assests.
 - [ ] Remove navigation bar above the footer
+- [ ] Jkuat web map to have a **search box** for venues by building name or course.
 
 **About**
 - [ ] AGGES gallery to load efficiently
