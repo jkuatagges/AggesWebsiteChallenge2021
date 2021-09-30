@@ -69,8 +69,9 @@ With the asssumption that you are using frontend framework of your choice create
 - [ ] Enable away of contacting the leaders to join AGGES
 
 **Projects**
-- [ ] Add a small description of each project.
-- [ ] Provide links for individual project content
+- [ ] Add a small description of each project, and include a cover photo to each proj if possible.
+- [ ] Provide links for individual project contents
+- [ ] Here is a saample curated list of [GEGIS BSc. Projects for 2020](https://omaps.bitbucket.io/jku/project2020.html). It will be a ice idea to append them too.
 
 **GEGIS(GIS) Past Papers**
 - [ ] Add a section where students can view and access revision papers for any unit of their choice
