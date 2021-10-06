@@ -1,7 +1,10 @@
 # JKUAT Agges Website Challenge for 2021
 The challenge is meant to come up with a JKUAT AGGES website that will serve the club by bringing together the alumni, connecting students to potential companies and even current geospatial  technologies.This will even alleviate the hustles the junior students need to go through to realise even the basic geospatial concepts.
 
-### This challenge is yet to be officially launched on 7th October 2021 at JKUAT-AGGES Weekly meetup room, Hall 7 room 005.Timelines are however yet to be put in place.
+## Important Dates
+
+* This challenge is yet to be officially launched on 7th October 2021 at JKUAT-AGGES Weekly meetup room, Hall 7 room 005.
+* Evaluation dates and other timelines are however yet to be put in place.
 
 ## Rules
 
