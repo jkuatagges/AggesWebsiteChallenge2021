@@ -69,7 +69,7 @@ With the asssumption that you are using frontend framework of your choice create
 - [ ] If there is any upcoming event, it should be updatable easily
 - [ ] Provide form for notification via email address.
 
-**Meet AGGES our Alumni**
+**Meet AGGES Alumni**
 - [ ] Add a brief profile of a few Alumni (Selected by the Matron, CoD GEGIS)
 - [ ] Add their quick links and social media links e.g LinkedIn (Prefered), Github, Twitter
 - [ ] Append a short message to the AGGES Students
