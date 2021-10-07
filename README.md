@@ -1,4 +1,13 @@
 # JKUAT Agges Website Challenge for 2021
+
+[![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub repo size](https://img.shields.io/github/repo-size/jkuatagges/AggesWebsiteChallenge2021?color=green-yellow&logo=github&logoColor=blue) 
+![GitHub language count](https://img.shields.io/github/languages/count/jkuatagges/AggesWebsiteChallenge2021?logo=visual-studio-code) 
+![GitHub top language](https://img.shields.io/github/languages/top/jkuatagges/AggesWebsiteChallenge2021)
+![GitHub last commit](https://img.shields.io/github/last-commit/jkuatagges/AggesWebsiteChallenge2021?style=plastic&color=brightgreen) 
+![Forks](https://img.shields.io/github/forks/jkuatagges/AggesWebsiteChallenge2021?style=social) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
+
 The challenge is meant to come up with a JKUAT AGGES website that will serve the club by bringing together the alumni, connecting students to potential companies and even current geospatial  technologies.This will even alleviate the hustles the junior students need to go through to realise even the basic geospatial concepts.
 
 ## Important Dates
