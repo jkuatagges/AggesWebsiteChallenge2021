@@ -5,7 +5,7 @@ The challenge is meant to come up with a JKUAT AGGES website that will serve the
 
 ## Rules
 
-Your submission will be reviewed by the committe heads. We'll take your experience level into consideration when reviewing.
+Your submission will be reviewed by the committee heads. We'll take your experience level into consideration when reviewing.
 
 We value quality over completeness. If you decide to leave things out, please call attention to it in your project's `README file`.
 
@@ -34,10 +34,10 @@ Bonus points:
 -	UI -Is the User interface attractive to the viewer?
 
 ## Task
-With the asssumption that you are using frontend framework of your choice create a new JKUAT AGGES Club website that will serve the club. 
+With the assumption that you are using frontend framework of your choice create a new JKUAT AGGES Club website that will serve the club. 
 - Kindly check out the following guidelines:
 - You host the site on either heroku, netlify, github pages or the site of your choice.The proposed are free hosting services
-- Perfomance and speed is essential
+- Performance and speed is essential
 - The Website should be fully responsive
 
 ### Areas to redesign
@@ -46,7 +46,7 @@ With the asssumption that you are using frontend framework of your choice create
 
 - [ ] Make it look like a landing site and as attractive as you can
 - [ ] Remove unnecessary clutter
-- [ ] Add pictures for various GEGIS and Spatial related stuff.You can link up with [Okomo on Twitter](https://twitter.com/okomojacob) or WhatsApp to provide you with Images and other assests.
+- [ ] Add pictures for various GEGIS and Spatial related stuff.You can link up with [Okomo on Twitter](https://twitter.com/okomojacob) or WhatsApp to provide you with Images and other assets.
 - [ ] Remove navigation bar above the footer
 - [ ] Jkuat web map to have a **search box** for venues by building name or course.
 
@@ -190,7 +190,7 @@ $ git status
 10. Commit your changes
 ```shell
 git commit -m "Commit message 😇"
-```
+v```
 11. Push your code changes
 ```shell
 git push --set-upstream origin your_branch_name
