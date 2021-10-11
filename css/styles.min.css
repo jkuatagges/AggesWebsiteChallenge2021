@@ -273,8 +273,8 @@
 
 .features-boxed h2 {
     font-weight: bold;
-    margin-bottom: 40px;
-    padding-top: 40px;
+    margin-bottom: 10px;
+    padding-top: 10px;
     color: inherit;
 }
 
@@ -288,7 +288,7 @@
 
 .features-boxed .intro {
     font-size: 16px;
-    max-width: 500px;
+    max-width: auto;
     margin: 0 auto;
 }
 
@@ -297,7 +297,7 @@
 }
 
 .features-boxed .features {
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 .features-boxed .item {
@@ -337,12 +337,12 @@
 
 .contact-clean {
     background: #f1f7fc;
-    padding: 80px 0;
+    padding: 10px 0;
 }
 
 @media (max-width:767px) {
     .contact-clean {
-        padding: 20px 0;
+        padding: 5px 0;
     }
 }
 
