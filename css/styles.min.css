@@ -180,22 +180,23 @@
 
 .team-boxed h2 {
     font-weight: 700;
-    margin-bottom: 40px;
-    padding-top: 40px;
+    margin-bottom: 25px;
+    padding-top: 20px;
     color: inherit
 }
 
 @media (max-width:767px) {
     .team-boxed h2 {
         margin-bottom: 25px;
-        padding-top: 25px;
+        padding-top: 20px;
         font-size: 24px
     }
 }
 
 .team-boxed .intro {
     font-size: 16px;
-    max-width: 500px;
+    max-width: auto;
+    padding-bottom: 5px;
     margin: 0 auto
 }
 
@@ -204,7 +205,7 @@
 }
 
 .team-boxed .people {
-    padding: 50px 0
+    padding: 20px 0
 }
 
 .team-boxed .item {
@@ -213,14 +214,14 @@
 
 .team-boxed .item .box {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     background-color: #fff;
-    margin-bottom: 30px
+    margin-bottom: 20px
 }
 
 .team-boxed .item .name {
     font-weight: 700;
-    margin-top: 28px;
+    margin-top: 20px;
     margin-bottom: 8px;
     color: inherit
 }
@@ -236,7 +237,7 @@
 .team-boxed .item .description {
     font-size: 15px;
     margin-top: 15px;
-    margin-bottom: 20px
+    margin-bottom: 10px
 }
 
 .team-boxed .item img {
@@ -245,7 +246,7 @@
 
 .team-boxed .social {
     font-size: 18px;
-    color: #a2a8ae
+    color: #5e7f8b
 }
 
 .team-boxed .social a {
@@ -306,9 +307,9 @@
 
 .features-boxed .item .box {
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     background-color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .features-boxed .item .icon {
@@ -329,7 +330,7 @@
 .features-boxed .item .description {
     font-size: 15px;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 
