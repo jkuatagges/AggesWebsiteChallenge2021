@@ -13,7 +13,7 @@ The challenge is meant to come up with a JKUAT AGGES website that will serve the
 ## Important Dates
 
 * This challenge was officially launched on 7th October 2021 at JKUAT-AGGES Weekly meetup room, Hall 7 room 005.
-* Evaluation dates and closure of the competition is tentatively 7th March 2021
+* Evaluation dates and closure of the competition is tentatively 7th February 2022.
 
 ## Rules
 
