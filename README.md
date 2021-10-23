@@ -1,7 +1,19 @@
 # JKUAT Agges Website Challenge for 2021
-The challenge is meant to come up with a JKUAT AGGES website that will serve the club.This will ensure connection with Alumni and even easy naviagation to the Junior students and connect them to resources.
 
-### This challenge is yet to be launched and Timelines put in place.
+[![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub repo size](https://img.shields.io/github/repo-size/jkuatagges/AggesWebsiteChallenge2021?color=green-yellow&logo=github&logoColor=blue) 
+![GitHub language count](https://img.shields.io/github/languages/count/jkuatagges/AggesWebsiteChallenge2021?logo=visual-studio-code) 
+![GitHub top language](https://img.shields.io/github/languages/top/jkuatagges/AggesWebsiteChallenge2021)
+![GitHub last commit](https://img.shields.io/github/last-commit/jkuatagges/AggesWebsiteChallenge2021?style=plastic&color=brightgreen) 
+![Forks](https://img.shields.io/github/forks/jkuatagges/AggesWebsiteChallenge2021?style=social) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
+
+The challenge is meant to come up with a JKUAT AGGES website that will serve the club by bringing together the alumni, connecting students to potential companies and even current geospatial  technologies.This will even alleviate the hustles the junior students need to go through to realise even the basic geospatial concepts.
+
+## Important Dates
+
+* This challenge was officially launched on 7th October 2021 at JKUAT-AGGES Weekly meetup room, Hall 7 room 005.
+* Evaluation dates and closure of the competition is tentatively 7th February 2022.
 
 ## Rules
 
@@ -42,7 +54,7 @@ With the assumption that you are using frontend framework of your choice create 
 
 ### Areas to redesign
 
-**Home**
+**Home Section**
 
 - [ ] Make it look like a landing site and as attractive as you can
 - [ ] Remove unnecessary clutter
@@ -50,7 +62,7 @@ With the assumption that you are using frontend framework of your choice create 
 - [ ] Remove navigation bar above the footer
 - [ ] Jkuat web map to have a **search box** for venues by building name or course.
 
-**About**
+**About Section**
 - [ ] AGGES gallery to load efficiently
 - [ ] A way of updating the gallery
 - [ ] AGGES committee to be available.
@@ -61,10 +73,20 @@ With the assumption that you are using frontend framework of your choice create 
 - [ ] Append all their contacts
 - [ ] They should be easily reachable by just one click
 
-**Events**
+**Events Section**
 - [ ] Update the events timeline.
 - [ ] If there is any upcoming event, it should be updatable easily
 - [ ] Provide form for notification via email address.
+
+**Meet AGGES Alumni**
+- [ ] Add a brief profile of a few Alumni (Selected by the Matron, CoD GEGIS)
+- [ ] Add their quick links and social media links e.g LinkedIn (Prefered), Github, Twitter
+- [ ] Append a short message to the AGGES Students
+
+**Potential Companies**
+- [ ] Some comapnies that we should associate ourselves with.
+- [ ] We prefer those Geospatial/Survey companies that our Alumni work (Or have worked with) and are really promising
+- [ ] Do they offer our students internships?, Prefer them
 
 **Membership**
 - [ ] Enable away of contacting the leaders to join AGGES
