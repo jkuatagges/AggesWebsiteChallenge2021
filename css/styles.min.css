@@ -120,6 +120,7 @@
 
 #slider {
     width: 100%;
+    padding-right: 40px;
 }
 
 .carousel-caption-welcome {
@@ -495,15 +496,15 @@
 }
 
 .row-image-txt {
-    background-color: rgb(42, 42, 42);
+    background-color: rgb(238, 241, 245);
 }
 
 .row-image-txt h1 {
-    color: white;
+    color: rgb(24, 23, 23);
 }
 
 .row-image-txt p {
-    color: white;
+    color: rgb(24, 23, 23);
 }
 
 
