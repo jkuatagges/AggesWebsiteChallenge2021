@@ -5,5 +5,8 @@
         "Geospatial",
         "Jkuat",
         "navcol"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#45e398"
+    }
 }
