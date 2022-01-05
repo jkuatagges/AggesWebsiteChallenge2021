@@ -35,7 +35,7 @@ I have created two accounts to manage comments and google analytics.
 
 The email address i created will be provided on request which manages this resources.
 
-### |<span style"color: red">Developer|Designer</span>|
+### |<span style="color: red">Developer|Designer</span>|
 
 + Alfred Amboka
 + GEGIS ; graduating to 4th year
