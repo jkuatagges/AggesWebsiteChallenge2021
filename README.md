@@ -9,13 +9,13 @@ Points to note:
 
 ##  Blog and Resource content
 
-To access the blog content, **fork**  [Agges-Blog](https://github.com/alfredamboka/Agges-Blog) and access the program resources.
+To access the blog content, **fork**[Agges-Blog](https://github.com/alfredamboka/Agges-Blog) and access the program resources.
 
 Additional resources for events planning am proposing in adding to this section so that it can be updated using markdow prier the events day. This should outline the events resources with proper link to cloud storage where one can download the shareable resources for practice.
 
 ## Design and  responsiveness
 
-I have tried as much to make this website responsive on all screens using <span style = "color: darkblue">[*bootstrap technologies*]</span>(https://bit.ly/3pU0j2u).
+I have tried as much to make this website responsive on all screens using <style = "color: darkblue">[*bootstrap technologies*]</style>(https://bit.ly/3pU0j2u).
 
 ### Things left out 
 
@@ -35,10 +35,10 @@ I have created two accounts to manage comments and google analytics.
 
 The email address i created will be provided on request which manages this resources.
 
-### <span style="color: red">Developer|Designer</span>
+### <style="color: red">Developer|Designer</style=>
 
 + Alfred Amboka
 + GEGIS ; graduating to 4th year
 + github: [alfredamboka](https://github.com/alfredamboka)
 
-## <span style = "color: brown">**END**</span>
+## <style = "color: brown">**END**</style>
