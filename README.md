@@ -26,7 +26,7 @@ This sections are on following pages
 + Membership registration page
 + Project page ; that allow user to upload project proposal file for club to handle
 + Past papers page; students can upload papers and admin reviews them before publishing on the site
-+ Afew automation for notifying members on upcoming weekly events. <span style = "color: orange">on events page</span>
++ Afew automation for notifying members on upcoming weekly events. <span style = "color: orange">on events page</span>.
 + Social media links and contact links have been left and will be added once this mock site is approved.
   
 ## Useful accounts
@@ -35,10 +35,10 @@ I have created two accounts to manage comments and google analytics.
 
 The email address i created will be provided on request which manages this resources.
 
-### <style="color: red">Developer|Designer</style=>
+### |<span style"color: red">Developer|Designer</span>|
 
 + Alfred Amboka
 + GEGIS ; graduating to 4th year
 + github: [alfredamboka](https://github.com/alfredamboka)
 
-## <style = "color: brown">**END**</style>
+## |<span style = "color: brown">**END**</span>|
