@@ -27,7 +27,7 @@
 
 <body style="background: rgb(238,244,247);">
     <nav class="navbar navbar-light navbar-expand-md" style="background: #01011f;">
-        <div class="container-fluid"><a class="navbar-brand" href="../index.html" style="color: var(--cyan);"><img src="../img/logo.png" style="width:50px; height:25px"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="color: var(--red);background: #c60e0e;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="color: rgba(152,9,9,0.5);"></span></button>
+        <div class="container-fluid"><a class="navbar-brand" href="../index.html" style="color: var(--cyan);"><img src="../img/logo_blue.png" style="width:50px; height:25px"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="color: var(--red);background: #c60e0e;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="color: rgba(152,9,9,0.5);"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link active" href="../index.html" style="color: var(--orange);">Home</a></li>
@@ -281,40 +281,46 @@
     <!-- Start: Responsive Form -->
     <div class="container">
         <div>
-            <form>
+            <form action="https://formspree.io/f/xdobkypd" method ="POST">
                 <div class="form-group mb-3">
                     <div id="formdiv">
                         <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
                             <div class="col-md-8 offset-md-1">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px; color: cornflowerblue;">Enter your Name:</p>
+                            </div>
+                            <div class="col-md-10 offset-md-1"><input class="form-control" type="email" name="_replyto" style="margin-left:0px;font-family:Roboto, sans-serif;" name="project-idea" placeholder="e.g examble@mail.com"></div>
+                        </div>
+                        <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                            <div class="col-md-8 offset-md-1">
                                 <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px; color: cornflowerblue;">What's your Idea all about?</p>
                             </div>
-                            <div class="col-md-10 offset-md-1"><input class="form-control" type="text" style="margin-left:0px;font-family:Roboto, sans-serif;" name="project-idea" placeholder="Idea?"></div>
+                            <div class="col-md-10 offset-md-1"><input class="form-control" type="text" name=" Title" style="margin-left:0px;font-family:Roboto, sans-serif;" name="project-idea" placeholder="Idea?"></div>
                         </div>
                         <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
                             <div class="col-md-8 offset-md-1">
                                 <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px; color: cornflowerblue;">Describe your project.</p>
                             </div>
-                            <div class="col-md-10 offset-md-1"><textarea class="form-control" style="font-family:Roboto, sans-serif;font-size:14px;" placeholder="provide detailed information and tools required for this project."></textarea>
-                                <!-- Start: Custom File Upload -->
-                                <form>
-                                    <div style="width: 200px;"><input class="form-control custom-file-input" type="file" id="user_group_logo" accept="image/*" name="user_group_logo">
-                                        <div class="text-center"><label class="form-label" id="user_group_label" for="user_group_logo"><i class="fas fa-upload"></i>&nbsp;Select file...</label></div>
-                                        <div class="text-center mt-2"><button class="btn btn-primary" type="submit">Upload</button></div>
-                                    </div>
-                                </form>
-                                <!-- End: Custom File Upload -->
-                            </div>
+                            <div class="col-md-10 offset-md-1">
+                                <textarea  name="message" class="form-control" style="font-family:Roboto, sans-serif;font-size:14px;" placeholder="provide detailed information and tools required for this project."></textarea>
+                                
+                
                         </div>
+                    </div>
                         <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
-                            <div class="col-12 col-md-4 offset-md-4"><button class="btn btn-light btn-lg" style="margin-left: 16px;color: #00008b;background: var(--bs-orange);" type="submit">Submit </button></div>
+                            <div class="col-12 col-md-4 offset-md-4"><button class="btn btn-light btn-lg" style="margin-left: 16px;color: #00008b;background: var(--bs-orange);" type="submit">Submit </button> <span style= "text-decoration-line: underline;"><p style="margin-left: 33.3333%; color:rgb(6, 22, 94);"><strong>OR</strong></p></span></div>
                         </div>
                     </div>
                 </div>
-            </form>
+            </form><!-- Start: Custom Upload File -->
+            <div style="width: 200px;margin-top: 0px;margin-left:40%;, margin-bottom: 45px ;">
+                <div class="text-center mt-2">
+                    <a><button onclick="window.location.href='https://tinyurl.com/3zj92kch';" class="btn btn-primary">Upload Project details On Drive</button></a>
+                </div>
+            </div><!-- End: Custom File Upload -->
+          
         </div>
     </div>
-    <!-- End: Responsive Form -->
-
+    
 
     <!-- Start: Bold BS4 Animated Back To Top -->
     <a class="cd-top js-cd-top cd-top--fade-out cd-top--show" style="background-image: url(&quot;../img/important/cd-top-arrow.svg&quot;);" href="#">Top</a>
@@ -322,7 +328,7 @@
 
     <footer id="footer">
 
-        <div style="background: #01011f ; text-align: center; margin: 0px; padding:10px">
+        <div style="background: #01011f ; text-align: center; margin-top: 20px; padding:10px">
             <p style="color:#fff; font-family: raleway">Copyright © JKUAT AGGES | Developer: Alfred Wegner</p>
         </div>
     </footer>
