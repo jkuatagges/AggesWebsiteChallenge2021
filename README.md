@@ -15,7 +15,7 @@ Additional resources for events planning am proposing in adding to this section 
 
 ## Design and  responsiveness
 
-I have tried as much to make this website responsive on all screens using <span style = "color: darkblue">[*bootstrap technologies*]</span>(https://bit.ly/3pU0j2u).
+I have tried as much to make this website responsive on all screens using [*bootstrap technologies*](https://bit.ly/3pU0j2u).
 
 ### Things left out 
 
