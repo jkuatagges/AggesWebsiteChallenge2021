@@ -9,7 +9,7 @@ Points to note:
 
 ##  Blog and Resource content
 
-To access the blog content, **fork**[Agges-Blog](https://github.com/alfredamboka/Agges-Blog) and access the program resources.
+To access the blog content, **fork** [Agges-Blog](https://github.com/alfredamboka/Agges-Blog) and access the program resources.
 
 Additional resources for events planning am proposing in adding to this section so that it can be updated using markdow prier the events day. This should outline the events resources with proper link to cloud storage where one can download the shareable resources for practice.
 
