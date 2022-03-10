@@ -3,4 +3,4 @@ Check out the winning website by Alfred Amboka on github:
 https://alfredamboka.github.io/AggesWebsiteChallenge2021/index.html
 We are Greatful to have you. 🤩 
 
-Also, the event was done on Zoom and the recording could be found [here] (https://drive.google.com/file/d/1g6TvRGAb1sJDeDssCsf28ok0M3h3wRwg/view?usp=sharing)
+Also, the event was done on Zoom and the recording could be found [here](https://drive.google.com/file/d/1g6TvRGAb1sJDeDssCsf28ok0M3h3wRwg/view?usp=sharing)
