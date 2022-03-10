@@ -13,7 +13,15 @@ The challenge is meant to come up with a JKUAT AGGES website that will serve the
 ## Important Dates
 
 * This challenge was officially launched on 7th October 2021 at JKUAT-AGGES Weekly meetup room, Hall 7 room 005.
-* Evaluation dates and closure of the competition is tentatively 7th February 2022.
+* Evaluation dates and closure of the competition was 7th February 2022.
+* The launch of the Version 1.0.0 of the AGGES website was Thursday 10th March 2022
+
+## Tools to use
+
+- [X] [Visual Studio Code, Code editor](https://code.visualstudio.com/download) -For writting and reading your code
+- [X] [Git Bash](https://git-scm.com/downloads) - For controlling your project versions
+- [X] [Git Hub](https://github.com/) - For hosting your project in developement and production mode
+- [Brave](https://brave.com/?ref=ovh762), [Google Chrome](https://www.google.com/chrome/?brand=BNSD&gclsrc=ds&gclsrc=ds), [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) - For testing and debugging your website code
 
 ## Rules
 
