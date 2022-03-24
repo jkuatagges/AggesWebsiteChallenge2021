@@ -595,15 +595,15 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.hero-nature {
-    background-image: url(/img/gallary/geoid_uav_seminar3.jpg)
+    background-image: url(../img/gallary/geoid_uav_seminar3.jpg)
 }
 
 div.jumbotron.hero-photography {
-    background-image: url(/img/slider/musa_2.jpg)
+    background-image: url(../img/slider/musa_2.jpg)
 }
 
 div.jumbotron.hero-technology {
-    background-image: url(/img/slider/finalists_william.jpg)
+    background-image: url(../img/slider/finalists_william.jpg)
 }
 
 h1.hero-title,
