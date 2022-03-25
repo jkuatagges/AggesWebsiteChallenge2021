@@ -1,559 +1,519 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <title>Jkuat Agges</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One|Raleway:400,800|Rokkitt:400,700|News+Cycle:400,700">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One|Raleway:400,800|Rokkitt:400,700">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One|Raleway:400,800|Rokkitt:400,700">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-        <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.dataTables.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/dataTables.bootstrap4.min.css">
-        <link rel="stylesheet" href="../css/styles.min.css">
-        <link rel="stylesheet" href="../css/project.min.css">
-    </head>
-    <body style="background: rgb(238,244,247);">
-        <nav class="navbar navbar-light navbar-expand-md" style="background: #01011f;">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html" style="color: var(--cyan);">
-                    <img src="../img/aggesLogo.png" style="width:50px; height:25px">
-                </a>
-                <button
-                    data-toggle="collapse"
-                    class="navbar-toggler"
-                    data-target="#navcol-1"
-                    style="color: var(--red);background: #c60e0e;"
-                >
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Jkuat Agges</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One|Raleway:400,800|Rokkitt:400,700|News+Cycle:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One|Raleway:400,800|Rokkitt:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One|Raleway:400,800|Rokkitt:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="../css/styles.min.css">
+    <link rel="stylesheet" href="../css/project.min.css">
+</head>
+
+<body style="background: rgb(238,244,247);">
+    <nav class="navbar navbar-light navbar-expand-md" style="background: #01011f;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html" style="color: var(--cyan);">
+                <img src="../assests/logo/aggesLogo.png" style="width:50px; height:25px">
+            </a>
+            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="color: var(--red);background: #c60e0e;">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="navbar-toggler-icon" style="color: rgba(152,9,9,0.5);"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="../index.html" style="color: var(--orange);">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/about.html" style="color: var(--orange);">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/members.html" style="color: var(--orange);">Membership</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/Events.html" style="color: var(--orange);">Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://agges-blog-site.netlify.app/" style="color: var(--orange);">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/team.html" style="color: var(--orange);">Our Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: var(--orange);">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/past-papers.html" style="color: var(--orange);">Past papers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/contactus.html" style="color: var(--orange);">Contact us</a>
-                        </li>
-                        <li class="nav-item"></li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://bit.ly/3JFWUMB" style="color: var(--orange);">Resources</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/archive.html" style="color: var(--orange);">Archive</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html" style="color: var(--orange);">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/about.html" style="color: var(--orange);">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/members.html" style="color: var(--orange);">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/Events.html" style="color: var(--orange);">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://agges-blog-site.netlify.app/" style="color: var(--orange);">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/team.html" style="color: var(--orange);">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: var(--orange);">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/past-papers.html" style="color: var(--orange);">Past papers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contactus.html" style="color: var(--orange);">Contact us</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://bit.ly/3JFWUMB" style="color: var(--orange);">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/archive.html" style="color: var(--orange);">Archive</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <!-- Start: divider-text-middle -->
-        <div style="text-align:center;">
-            <h2 class="divider-style" style="margin: 40px 40px 40px;  color: rgb(10, 14, 14);">
-                <span>
+        </div>
+    </nav>
+    <!-- Start: divider-text-middle -->
+    <div style="text-align:center;">
+        <h2 class="divider-style" style="margin: 40px 40px 40px;  color: rgb(10, 14, 14);">
+            <span>
                     <strong>Trending | Top Projects</strong>
                 </span>
-            </h2>
-        </div>
-        <!-- End: divider-text-middle -->
-        <!-- Start: Competences Grid - 3 Columns - Hover Effect Pop - -->
-        <div style="text-align: center;">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4 competencesboxes" style="padding: 10px 22.5pxpx;height: 560px;max-height: 580px;">
-                        <!-- Start: project-card -->
-                        <div class="card border-white border rounded shadow-lg" data-bss-hover-animate="pulse" style="width: auto;height: auto;margin: 5px 5px;margin-left: 15px;max-height: 560px;">
-                            <div class="card-body" style="width: auto;height: 520px;padding: 0px;margin: 10px;">
-                                <img class="d-lg-flex m-auto align-items-lg-center" style="width: auto;height: 115.31px;margin-left: 0px;padding-left: 0px;" src="../img/projects/young-college-students.jpg">
-                                <h4 class="card-title" style="margin-top: 5px;color: rgb(8,29,140);text-align: left;font-size: 18px;">Real Time Automated Water Quality Monitoring System</h4>
-                                <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">tags</h6>
-                                <p class="card-text" style="width: auto;margin-top: 15px;margin-bottom: 20px;text-align: left; color: darkslategray;">
-                                    Water is crucial commodity for humanity. We cannot live without it. We use water for domestic, industrial, recreational and for power production through hydro-electric power generation. It is paramount to conserve and protect
-                                our water resources if we are to use it in the first place. Water pollution is the contamination of water caused by human action leading to reduction in the water quality and increased toxicity. Watershed and systems have
-                                been polluted over years by human and animals wastes, soil erosion effluents discharged from industrial organic wastes or agricultural...
-                                    <br>
-                                </p>
-                                <div class="btn-group" role="group">
-                                    <a class="btn-link" href="#">
-                                        <button class="btn btn-primary" type="button" style="margin-left: 7px; ">info</button>
-                                    </a>
-                                </div>
+        </h2>
+    </div>
+    <!-- End: divider-text-middle -->
+    <!-- Start: Competences Grid - 3 Columns - Hover Effect Pop - -->
+    <div style="text-align: center;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 competencesboxes " style="padding: 10px 22.5px;height: 600px;; max-height:640px">
+                    <!-- Start: project-card -->
+                    <div class="card border-white border rounded shadow-lg " data-bss-hover-animate="pulse " style="width: auto;height:max-content;margin: 5px 5px;margin-left: 15px;max-height: 560px; ">
+                        <div class="card-body " style="width: auto;height: 520px;padding: 0px;margin: 10px; ">
+                            <img class="d-lg-flex m-auto align-items-lg-center " style="width: auto;height: 115.31px;margin-left: 0px;padding-left: 0px; " src="../assests/images/super-Image/water-map-graphic_0.png ">
+                            <h4 class="card-title " style="margin-top: 5px;color: rgb(8,29,140);text-align: left;font-size: 18px; ">Real Time Automated Water Quality Monitoring System</h4>
+                            <h6 class="text-muted card-subtitle mb-2 " style="margin-top: 0px; ">tags</h6>
+                            <p class="card-text " style="width: auto;margin-top: 15px;margin-bottom: 20px;text-align: left; color: darkslategray; ">
+                                Water is crucial commodity for humanity. We cannot live without it. We use water for domestic, industrial, recreational and for power production through hydro-electric power generation. It is paramount to conserve and protect our water resources if we
+                                are to use it in the first place. Water pollution is the contamination of water caused by human action leading to reduction in the water quality and increased toxicity. Watershed and systems have been polluted over years
+                                by human and animals wastes, soil erosion effluents discharged from industrial organic wastes or agricultural...
+                                <br>
+                            </p>
+                            <div class="btn-group " role="group ">
+                                <a class="btn-link " href="# ">
+                                    <button class="btn btn-primary " type="button " style="margin-left: 7px; ">info</button>
+                                </a>
                             </div>
                         </div>
-                        <!-- End: project-card -->
                     </div>
-                    <div class="col-md-4 competencesboxes">
-                        <!-- Start: project-card -->
-                        <div class="card border-white border rounded shadow-lg" data-bss-hover-animate="pulse" style="width: auto;height: auto;margin: 5px 5px;margin-left: 15px;max-height: 560px;">
-                            <div class="card-body" style="width: auto;height: 520px;padding: 0px;margin: 10px;">
-                                <img class="d-lg-flex m-auto align-items-lg-center" style="width: auto;height: 115.31px;margin-left: 0px;padding-left: 0px;" src="../img/projects/young-college-students.jpg">
-                                <h4 class="card-title" style="margin-top: 5px;color: rgb(8,29,140);text-align: left;font-size: 18px;">Real Time Automated Water Quality Monitoring System
-                                    <br>
-                                </h4>
-                                <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">tags</h6>
-                                <p class="card-text" style="width: auto;margin-top: 15px;margin-bottom: 20px;text-align: left; color: darkslategray;">
-                                    Water is crucial commodity for humanity. We cannot live without it. We use water for domestic, industrial, recreational and for power production through hydro-electric power generation. It is paramount to conserve and protect
-                                our water resources if we are to use it in the first place. Water pollution is the contamination of water caused by human action leading to reduction in the water quality and increased toxicity. Watershed and systems have
-                                been polluted over years by human and animals wastes, soil erosion effluents discharged from industrial organic wastes or agricultural...
-                                    <br>
-                                </p>
-                                <div class="btn-group" role="group">
-                                    <a class="btn-link" href="#">
-                                        <button class="btn btn-primary" type="button" style="margin-left: 7px; ">info</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End: project-card -->
-                    </div>
-                    <div class="col-md-4 competencesboxes">
-                        <!-- Start: project-card -->
-                        <div class="card border-white border rounded shadow-lg" data-bss-hover-animate="pulse" style="width: auto;height: auto;margin: 5px 5px;margin-left: 15px;max-height: 560px;">
-                            <div class="card-body" style="width: auto;height: 520px;padding: 0px;margin: 10px;">
-                                <img class="d-lg-flex m-auto align-items-lg-center" style="width: auto;height: 115.31px;margin-left: 0px;padding-left: 0px;" src="../img/projects/young-college-students.jpg">
-                                <h4 class="card-title" style="margin-top: 5px;color: rgb(8,29,140);text-align: left;font-size: 18px;">Real Time Automated Water Quality Monitoring System
-                                    <br>
-                                </h4>
-                                <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">tags</h6>
-                                <p class="card-text" style="width: auto;margin-top: 15px;margin-bottom: 20px;text-align: left; color: darkslategray;">
-                                    Water is crucial commodity for humanity. We cannot live without it. We use water for domestic, industrial, recreational and for power production through hydro-electric power generation. It is paramount to conserve and protect
-                                our water resources if we are to use it in the first place. Water pollution is the contamination of water caused by human action leading to reduction in the water quality and increased toxicity. Watershed and systems have
-                                been polluted over years by human and animals wastes, soil erosion effluents discharged from industrial organic wastes or agricultural...
-                                    <br>
-                                </p>
-                                <div class="btn-group" role="group">
-                                    <a class="btn-link" href="#">
-                                        <button class="btn btn-primary" type="button" style="margin-left: 7px; ">info</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End: project-card -->
-                    </div>
+                    <!-- End: project-card -->
                 </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4 competencesboxes" style="padding: 10px 22.5pxpx;">
-                        <!-- Start: project-card -->
-                        <div class="card border-white border rounded shadow-lg" data-bss-hover-animate="pulse" style="width: auto;height: auto;margin: 5px 5px;margin-left: 15px;max-height: 560px;">
-                            <div class="card-body" style="width: auto;height: 520px;padding: 0px;margin: 10px;">
-                                <img class="d-lg-flex m-auto align-items-lg-center" style="width: auto;height: 115.31px;margin-left: 0px;padding-left: 0px;" src="../img/projects/young-college-students.jpg">
-                                <h4 class="card-title" style="margin-top: 5px;color: rgb(8,29,140);text-align: left;font-size: 18px;">Real Time Automated Water Quality Monitoring System
-                                    <br>
-                                </h4>
-                                <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">tags</h6>
-                                <p class="card-text" style="width: auto;margin-top: 15px;margin-bottom: 20px;text-align: left; color: darkslategray;">
-                                    Water is crucial commodity for humanity. We cannot live without it. We use water for domestic, industrial, recreational and for power production through hydro-electric power generation. It is paramount to conserve and protect
-                                our water resources if we are to use it in the first place. Water pollution is the contamination of water caused by human action leading to reduction in the water quality and increased toxicity. Watershed and systems have
-                                been polluted over years by human and animals wastes, soil erosion effluents discharged from industrial organic wastes or agricultural...
-                                    <br>
-                                </p>
-                                <div class="btn-group" role="group">
-                                    <a class="btn-link" href="#">
-                                        <button class="btn btn-primary" type="button" style="margin-left: 7px; ">info</button>
-                                    </a>
-                                </div>
+                <div class="col-md-4 competencesboxes ">
+                    <!-- Start: project-card -->
+                    <div class="card border-white border rounded shadow-lg " data-bss-hover-animate="pulse " style="width: auto;height: auto;margin: 5px 5px;margin-left: 15px;max-height: 560px; ">
+                        <div class="card-body " style="width: auto;height: 520px;padding: 0px;margin: 10px; ">
+                            <img class="d-lg-flex m-auto align-items-lg-center " style="width: auto;height: 115.31px;margin-left: 0px;padding-left: 0px; " src="../assests/images/gallary/location_int.jpg ">
+                            <h4 class="card-title " style="margin-top: 5px;color: rgb(8,29,140);text-align: left;font-size: 18px; ">Real Time Automated Water Quality Monitoring System
+                                <br>
+                            </h4>
+                            <h6 class="text-muted card-subtitle mb-2 " style="margin-top: 0px; ">tags</h6>
+                            <p class="card-text " style="width: auto;margin-top: 15px;margin-bottom: 20px;text-align: left; color: darkslategray; ">
+                                Water is crucial commodity for humanity. We cannot live without it. We use water for domestic, industrial, recreational and for power production through hydro-electric power generation. It is paramount to conserve and protect our water resources if we
+                                are to use it in the first place. Water pollution is the contamination of water caused by human action leading to reduction in the water quality and increased toxicity. Watershed and systems have been polluted over years
+                                by human and animals wastes, soil erosion effluents discharged from industrial organic wastes or agricultural...
+                                <br>
+                            </p>
+                            <div class="btn-group " role="group ">
+                                <a class="btn-link " href="# ">
+                                    <button class="btn btn-primary " type="button " style="margin-left: 7px; ">info</button>
+                                </a>
                             </div>
                         </div>
-                        <!-- End: project-card -->
                     </div>
-                    <div class="col-md-4 competencesboxes">
-                        <!-- Start: project-card -->
-                        <div class="card border-white border rounded shadow-lg" data-bss-hover-animate="pulse" style="width: auto;height: auto;margin: 5px 5px;margin-left: 15px;max-height: 560px;">
-                            <div class="card-body" style="width: auto;height: 520px;padding: 0px;margin: 10px;">
-                                <img class="d-lg-flex m-auto align-items-lg-center" style="width: auto;height: 115.31px;margin-left: 0px;padding-left: 0px;" src="../img/projects/young-college-students.jpg">
-                                <h4 class="card-title" style="margin-top: 5px;color: rgb(8,29,140);text-align: left;font-size: 18px;">Real Time Automated Water Quality Monitoring System
-                                    <br>
-                                </h4>
-                                <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">tags</h6>
-                                <p class="card-text" style="width: auto;margin-top: 15px;margin-bottom: 20px;text-align: left; color: darkslategray;">
-                                    Water is crucial commodity for humanity. We cannot live without it. We use water for domestic, industrial, recreational and for power production through hydro-electric power generation. It is paramount to conserve and protect
-                                our water resources if we are to use it in the first place. Water pollution is the contamination of water caused by human action leading to reduction in the water quality and increased toxicity. Watershed and systems have
-                                been polluted over years by human and animals wastes, soil erosion effluents discharged from industrial organic wastes or agricultural...
-                                    <br>
-                                </p>
-                                <div class="btn-group" role="group">
-                                    <a class="btn-link" href="#">
-                                        <button class="btn btn-primary" type="button" style="margin-left: 7px; ">info</button>
-                                    </a>
-                                </div>
+                    <!-- End: project-card -->
+                </div>
+                <div class="col-md-4 competencesboxes ">
+                    <!-- Start: project-card -->
+                    <div class="card border-white border rounded shadow-lg " data-bss-hover-animate="pulse " style="width: auto;height: auto;margin: 5px 5px;margin-left: 15px;max-height: 560px; ">
+                        <div class="card-body " style="width: auto;height: 520px;padding: 0px;margin: 10px; ">
+                            <img class="d-lg-flex m-auto align-items-lg-center " style="width: auto;height: 115.31px;margin-left: 0px;padding-left: 0px; " src="../assests/images/super-Image/water-map-graphic_0.png ">
+                            <h4 class="card-title " style="margin-top: 5px;color: rgb(8,29,140);text-align: left;font-size: 18px; ">Real Time Automated Water Quality Monitoring System
+                                <br>
+                            </h4>
+                            <h6 class="text-muted card-subtitle mb-2 " style="margin-top: 0px; ">tags</h6>
+                            <p class="card-text " style="width: auto;margin-top: 15px;margin-bottom: 20px;text-align: left; color: darkslategray; ">
+                                Water is crucial commodity for humanity. We cannot live without it. We use water for domestic, industrial, recreational and for power production through hydro-electric power generation. It is paramount to conserve and protect our water resources if we
+                                are to use it in the first place. Water pollution is the contamination of water caused by human action leading to reduction in the water quality and increased toxicity. Watershed and systems have been polluted over years
+                                by human and animals wastes, soil erosion effluents discharged from industrial organic wastes or agricultural...
+                                <br>
+                            </p>
+                            <div class="btn-group " role="group ">
+                                <a class="btn-link " href="# ">
+                                    <button class="btn btn-primary " type="button " style="margin-left: 7px; ">info</button>
+                                </a>
                             </div>
                         </div>
-                        <!-- End: project-card -->
                     </div>
-                    <div class="col-md-4 competencesboxes">
-                        <!-- Start: project-card -->
-                        <div class="card border-white border rounded shadow-lg" data-bss-hover-animate="pulse" style="width: auto;height: auto;margin: 5px 5px;margin-left: 15px;max-height: 560px;">
-                            <div class="card-body" style="width: auto;height: 520px;padding: 0px;margin: 10px;">
-                                <img class="d-lg-flex m-auto align-items-lg-center" style="width: auto;height: 115.31px;margin-left: 0px;padding-left: 0px;" src="../img/projects/young-college-students.jpg">
-                                <h4 class="card-title" style="margin-top: 5px;color: rgb(8,29,140);text-align: left;font-size: 18px;">Real Time Automated Water Quality Monitoring System
-                                    <br>
-                                </h4>
-                                <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">tags</h6>
-                                <p class="card-text" style="width: auto;margin-top: 15px;margin-bottom: 20px;text-align: left; color: darkslategray;">
-                                    Water is crucial commodity for humanity. We cannot live without it. We use water for domestic, industrial, recreational and for power production through hydro-electric power generation. It is paramount to conserve and protect
-                                our water resources if we are to use it in the first place. Water pollution is the contamination of water caused by human action leading to reduction in the water quality and increased toxicity. Watershed and systems have
-                                been polluted over years by human and animals wastes, soil erosion effluents discharged from industrial organic wastes or agricultural...
-                                    <br>
-                                </p>
-                                <div class="btn-group" role="group">
-                                    <a class="btn-link" href="#">
-                                        <button class="btn btn-primary" type="button" style="margin-left: 7px; ">info</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End: project-card -->
-                    </div>
+                    <!-- End: project-card -->
                 </div>
             </div>
         </div>
-        <!-- End: Competences Grid - 3 Columns - Hover Effect Pop - -->
-        <!-- Start: best carousel slide -->
-        <section id="carousel"></section>
-        <!-- End: best carousel slide -->
-        <!-- Start: divider-text-middle -->
-        <div style="text-align:center;">
-            <h2 class="divider-style" style="margin: 40px 40px 40px; color: rgb(10, 14, 14);">
-                <span>
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class="col-md-4 competencesboxes " style="padding: 10px 22.5px; ">
+                    <!-- Start: project-card -->
+                    <div class="card border-white border rounded shadow-lg " data-bss-hover-animate="pulse " style="width: auto;height: auto;margin: 5px 5px;margin-left: 15px;max-height: 560px; ">
+                        <div class="card-body " style="width: auto;height: 520px;padding: 0px;margin: 10px; ">
+                            <img class="d-lg-flex m-auto align-items-lg-center " style="width: auto;height: 115.31px;margin-left: 0px;padding-left: 0px; " src="../assests/images/super-Image/water-map-graphic_0.png ">
+                            <h4 class="card-title " style="margin-top: 5px;color: rgb(8,29,140);text-align: left;font-size: 18px; ">Real Time Automated Water Quality Monitoring System
+                                <br>
+                            </h4>
+                            <h6 class="text-muted card-subtitle mb-2 " style="margin-top: 0px; ">tags</h6>
+                            <p class="card-text " style="width: auto;margin-top: 15px;margin-bottom: 20px;text-align: left; color: darkslategray; ">
+                                Water is crucial commodity for humanity. We cannot live without it. We use water for domestic, industrial, recreational and for power production through hydro-electric power generation. It is paramount to conserve and protect our water resources if we
+                                are to use it in the first place. Water pollution is the contamination of water caused by human action leading to reduction in the water quality and increased toxicity. Watershed and systems have been polluted over years
+                                by human and animals wastes, soil erosion effluents discharged from industrial organic wastes or agricultural...
+                                <br>
+                            </p>
+                            <div class="btn-group " role="group ">
+                                <a class="btn-link " href="# ">
+                                    <button class="btn btn-primary " type="button " style="margin-left: 7px; ">info</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End: project-card -->
+                </div>
+                <div class="col-md-4 competencesboxes ">
+                    <!-- Start: project-card -->
+                    <div class="card border-white border rounded shadow-lg " data-bss-hover-animate="pulse " style="width: auto;height: auto;margin: 5px 5px;margin-left: 15px;max-height: 560px; ">
+                        <div class="card-body " style="width: auto;height: 520px;padding: 0px;margin: 10px; ">
+                            <img class="d-lg-flex m-auto align-items-lg-center " style="width: auto;height: 115.31px;margin-left: 0px;padding-left: 0px; " src="../assests/images/super-Image/water-map-graphic_0.png ">
+                            <h4 class="card-title " style="margin-top: 5px;color: rgb(8,29,140);text-align: left;font-size: 18px; ">Real Time Automated Water Quality Monitoring System
+                                <br>
+                            </h4>
+                            <h6 class="text-muted card-subtitle mb-2 " style="margin-top: 0px; ">tags</h6>
+                            <p class="card-text " style="width: auto;margin-top: 15px;margin-bottom: 20px;text-align: left; color: darkslategray; ">
+                                Water is crucial commodity for humanity. We cannot live without it. We use water for domestic, industrial, recreational and for power production through hydro-electric power generation. It is paramount to conserve and protect our water resources if we
+                                are to use it in the first place. Water pollution is the contamination of water caused by human action leading to reduction in the water quality and increased toxicity. Watershed and systems have been polluted over years
+                                by human and animals wastes, soil erosion effluents discharged from industrial organic wastes or agricultural...
+                                <br>
+                            </p>
+                            <div class="btn-group " role="group ">
+                                <a class="btn-link " href="# ">
+                                    <button class="btn btn-primary " type="button " style="margin-left: 7px; ">info</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End: project-card -->
+                </div>
+                <div class="col-md-4 competencesboxes ">
+                    <!-- Start: project-card -->
+                    <div class="card border-white border rounded shadow-lg " data-bss-hover-animate="pulse " style="width: auto;height: 600px;margin: 5px 5px;margin-left: 15px;max-height: 640px; ">
+                        <div class="card-body " style="width: auto;height: 520px;padding: 0px;margin: 10px; ">
+                            <img class="d-lg-flex m-auto align-items-lg-center " style="width: auto;height: 115.31px;margin-left: 0px;padding-left: 0px; " src="../assests/images/super-Image/water-map-graphic_0.png ">
+                            <h4 class="card-title " style="margin-top: 5px;color: rgb(8,29,140);text-align: left;font-size: 18px; ">Real Time Automated Water Quality Monitoring System
+                                <br>
+                            </h4>
+                            <h6 class="text-muted card-subtitle mb-2 " style="margin-top: 0px; ">tags</h6>
+                            <p class="card-text " style="width: auto;margin-top: 15px;margin-bottom: 20px;text-align: left; color: darkslategray; ">
+                                Water is crucial commodity for humanity. We cannot live without it. We use water for domestic, industrial, recreational and for power production through hydro-electric power generation. It is paramount to conserve and protect our water resources if we
+                                are to use it in the first place. Water pollution is the contamination of water caused by human action leading to reduction in the water quality and increased toxicity. Watershed and systems have been polluted over years
+                                by human and animals wastes, soil erosion effluents discharged from industrial organic wastes or agricultural...
+                                <br>
+                            </p>
+                            <div class="btn-group " role="group ">
+                                <a class="btn-link " href="# ">
+                                    <button class="btn btn-primary " type="button " style="margin-left: 7px; ">info</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End: project-card -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: Competences Grid - 3 Columns - Hover Effect Pop - -->
+    <!-- Start: best carousel slide -->
+    <section id="carousel "></section>
+    <!-- End: best carousel slide -->
+    <!-- Start: divider-text-middle -->
+    <div style="text-align:center; ">
+        <h2 class="divider-style " style="margin: 40px 40px 40px; color: rgb(10, 14, 14); ">
+            <span>
                     <strong>Upcoming | Ongoing Projects</strong>
                 </span>
-            </h2>
-        </div>
-        <!-- End: divider-text-middle -->
-        <!-- Start: best carousel slide -->
-        <section id="carousel">
-            <!-- Start: Carousel Hero -->
-            <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
-                <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <div class="bg-light border rounded border-light pulse animated hero-nature carousel-hero jumbotron py-5 px-4">
-                            <h1 class="hero-title" style="color:var(--bs-indigo);background: rgb(238, 244, 247);margin: 0px 70px 8px;">GIS- Crowd sourcing&nbsp; Data</h1>
-                            <p class="hero-subtitle" style="background: rgba(238, 244,247);color:var(--bs-dark);">Data is key for spatial modeling and solving of&nbsp; challenges facing the society. We therefore purpose to develop automated system to collect data from the users in real time</p>
-                            <p>
-                                <a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="bg-light border rounded border-light pulse animated hero-photography carousel-hero jumbotron py-5 px-4">
-                            <h1 class="hero-title" style="color: var(--bs-indigo);background: rgb(238,244,247);margin: 0px 70px 8px;">Location Intelligence</h1>
-                            <p class="hero-subtitle" style="background: rgb(238,244,247);color: var(--bs-dark);">Geo-Intelligence is on the next level. we make informed decisions&nbsp; using available supper tools developed. Here comes another project to handle another critical problem in Location Intelligence...</p>
-                            <p>
-                                <a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel-item active">
-                        <div class="bg-light border rounded border-light pulse animated hero-technology carousel-hero jumbotron py-5 px-4">
-                            <h1 class="hero-title" style="color: var(--bs-indigo);background: rgb(238,244,247);margin: 0px 70px 8px;">Hero Technology</h1>
-                            <p class="hero-subtitle" style="background: rgb(238,244,247);color: var(--bs-dark);">Hero tech! It is here with us lets invent, discover the hidden heroes in GIS technologies. "Insanity is when you keep doing the same thing expecting different results" Stop using old means, discover new tools and technologies.</p>
-                            <p>
-                                <a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a>
-                            </p>
-                        </div>
+        </h2>
+    </div>
+    <!-- End: divider-text-middle -->
+    <!-- Start: best carousel slide -->
+    <section id="carousel ">
+        <!-- Start: Carousel Hero -->
+        <div class="carousel slide " data-bs-ride="carousel " id="carousel-1 ">
+            <div class="carousel-inner ">
+                <div class="carousel-item ">
+                    <div class="bg-light border rounded border-light pulse animated hero-nature carousel-hero jumbotron py-5 px-4 ">
+                        <h1 class="hero-title " style="color:var(--bs-indigo);background: rgb(238, 244, 247);margin: 0px 70px 8px; ">GIS- Crowd sourcing&nbsp; Data</h1>
+                        <p class="hero-subtitle " style="background: rgba(238, 244,247);color:var(--bs-dark); ">Data is key for spatial modeling and solving of&nbsp; challenges facing the society. We therefore purpose to develop automated system to collect data from the users in real time</p>
+                        <p>
+                            <a class="btn btn-primary hero-button plat " role="button " href="# ">Learn more</a>
+                        </p>
                     </div>
                 </div>
-                <div>
-                    <a
-                        class="carousel-control-prev"
-                        href="#carousel-1"
-                        role="button"
-                        data-bs-slide="prev"
-                    >
-                        <span class="carousel-control-prev-icon" style="color: var(--bs-blue);"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </a>
-                    <a
-                        class="carousel-control-next"
-                        href="#carousel-1"
-                        role="button"
-                        data-bs-slide="next"
-                    >
-                        <span class="carousel-control-next-icon"></span>
-                        <span class="visually-hidden">Next</span>
-                    </a>
+                <div class="carousel-item ">
+                    <div class="bg-light border rounded border-light pulse animated hero-photography carousel-hero jumbotron py-5 px-4 ">
+                        <h1 class="hero-title " style="color: var(--bs-indigo);background: rgb(238,244,247);margin: 0px 70px 8px; ">Location Intelligence</h1>
+                        <p class="hero-subtitle " style="background: rgb(238,244,247);color: var(--bs-dark); ">Geo-Intelligence is on the next level. we make informed decisions&nbsp; using available supper tools developed. Here comes another project to handle another critical problem in Location Intelligence...</p>
+                        <p>
+                            <a class="btn btn-primary hero-button plat " role="button " href="# ">Learn more</a>
+                        </p>
+                    </div>
                 </div>
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#carousel-1" data-bs-slide-to="0"></li>
-                    <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
-                    <li data-bs-target="#carousel-1" data-bs-slide-to="2" class="active"></li>
-                </ol>
+                <div class="carousel-item active ">
+                    <div class="bg-light border rounded border-light pulse animated hero-technology carousel-hero jumbotron py-5 px-4 ">
+                        <h1 class="hero-title " style="color: var(--bs-indigo);background: rgb(238,244,247);margin: 0px 70px 8px; ">Hero Technology</h1>
+                        <p class="hero-subtitle " style="background: rgb(238,244,247);color: var(--bs-dark); ">Hero tech! It is here with us lets invent, discover the hidden heroes in GIS technologies. "Insanity is when you keep doing the same thing expecting different results " Stop using old means, discover new tools and technologies.</p>
+                        <p>
+                            <a class="btn btn-primary hero-button plat " role="button " href="# ">Learn more</a>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <!-- End: Carousel Hero -->
-        </section>
-        <!-- End: best carousel slide -->
-        <!-- Start: divider-text-middle -->
-        <div style="text-align:center;">
-            <h2 class="divider-style" style="margin: 40px 40px 40px;  color: rgb(10, 14, 14);">
-                <span>
+            <div>
+                <a class="carousel-control-prev " href="#carousel-1 " role="button " data-bs-slide="prev ">
+                    <span class="carousel-control-prev-icon " style="color: var(--bs-blue); "></span>
+                    <span class="visually-hidden ">Previous</span>
+                </a>
+                <a class="carousel-control-next " href="#carousel-1 " role="button " data-bs-slide="next ">
+                    <span class="carousel-control-next-icon "></span>
+                    <span class="visually-hidden ">Next</span>
+                </a>
+            </div>
+            <ol class="carousel-indicators ">
+                <li data-bs-target="#carousel-1 " data-bs-slide-to="0 "></li>
+                <li data-bs-target="#carousel-1 " data-bs-slide-to="1 "></li>
+                <li data-bs-target="#carousel-1 " data-bs-slide-to="2 " class="active "></li>
+            </ol>
+        </div>
+        <!-- End: Carousel Hero -->
+    </section>
+    <!-- End: best carousel slide -->
+    <!-- Start: divider-text-middle -->
+    <div style="text-align:center; ">
+        <h2 class="divider-style " style="margin: 40px 40px 40px; color: rgb(10, 14, 14); ">
+            <span>
                     <strong>Other Useful Projects</strong>
                     <br>
                 </span>
-            </h2>
-        </div>
-        <!-- End: divider-text-middle -->
-        <!-- Start: DataTable - Fully BSS Editable -->
-        <section class="mt-4">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="card shadow">
-                            <div class="card-header py-2">
-                                <p class="lead text-info m-0" style="text-align: center;">
-                                    <strong>Recently completed projects&nbsp;</strong>
-                                </p>
-                            </div>
-                            <div class="card-body">
-                                <div class="table-responsive table mb-0 pt-3 pe-2">
-                                    <table class="table table-striped table-sm table-bordered my-0 mydatatable">
-                                        <thead class="table-dark">
-                                            <tr>
-                                                <th style="color: var(--bs-orange);">Author</th>
-                                                <th style="color: var(--bs-orange);">Project Title</th>
-                                                <th style="color: var(--bs-orange);">Short Description&nbsp;</th>
-                                                <th style="color: var(--bs-orange);">Link</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td style="text-align: left;background: rgb(238,244,247);">Alfred Wegner</td>
-                                                <td>
-                                                    <strong>Continental Drift Theory</strong>
-                                                </td>
-                                                <td>
-                                                    <br>
-                                                    <strong>Alfred</strong> Wegener. Except for a few converts, and those like Cloos
-                                                    <br>who couldn't accept the concept but was clearly fascinated by it, the
-                                                    <br>
-                                                    international geological community's reaction
-                                                to Wegener's theory was
-                                                    <br>militantly hostile
-                                                    <br>
-                                                    <br>
-                                                </td>
-                                                <td style="background: rgb(238,244,247);">
-                                                    <a href="#">home for intelligence</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="background: rgb(238,244,247);">Albert Einstein</td>
-                                                <td>
-                                                    <strong>Relativity Theory</strong>
-                                                </td>
-                                                <td>
-                                                    <br>The test of a good
-                                                    <strong>theory</strong> is if it describes observed reality and makes reliable and accurate predictions about the future. By these standards, general
-                                                    <strong>relativity</strong>
-                                                    is a good
-                                                theory—it successfully predicts these deviations in orbits, bolstering our faith in the
-                                                    <strong>theory</strong>.
-                                                    <br>
-                                                    <br>
-                                                </td>
-                                                <td style="background: rgb(238,244,247);">
-                                                    <a href="#">home for physics</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="text-align: left;background: rgb(238,244,247);">Alfred Wegner</td>
-                                                <td>
-                                                    <strong>Continental Drift Theory</strong>
-                                                </td>
-                                                <td>
-                                                    <br>
-                                                    <strong>Alfred</strong> Wegener. Except for a few converts, and those like Cloos
-                                                    <br>who couldn't accept the concept but was clearly fascinated by it, the
-                                                    <br>
-                                                    international geological community's reaction
-                                                to Wegener's theory was
-                                                    <br>militantly hostile
-                                                    <br>
-                                                    <br>
-                                                </td>
-                                                <td style="background: rgb(238,244,247);">
-                                                    <a href="#">home for intelligence</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td style="background: rgb(238,244,247);">Albert Einstein</td>
-                                                <td>
-                                                    <strong>Relativity Theory</strong>
-                                                </td>
-                                                <td>
-                                                    <br>The test of a good
-                                                    <strong>theory</strong> is if it describes observed reality and makes reliable and accurate predictions about the future. By these standards, general
-                                                    <strong>relativity</strong>
-                                                    is a good
-                                                theory—it successfully predicts these deviations in orbits, bolstering our faith in the
-                                                    <strong>theory</strong>.
-                                                    <br>
-                                                    <br>
-                                                </td>
-                                                <td style="background: rgb(238,244,247);">
-                                                    <a href="#">home for physics</a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                        <tfoot>
-                                            <tr></tr>
-                                        </tfoot>
-                                    </table>
-                                </div>
+        </h2>
+    </div>
+    <!-- End: divider-text-middle -->
+    <!-- Start: DataTable - Fully BSS Editable -->
+    <section class="mt-4 ">
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class="col ">
+                    <div class="card shadow ">
+                        <div class="card-header py-2 ">
+                            <p class="lead text-info m-0 " style="text-align: center; ">
+                                <strong>Recently completed projects&nbsp;</strong>
+                            </p>
+                        </div>
+                        <div class="card-body ">
+                            <div class="table-responsive table mb-0 pt-3 pe-2 ">
+                                <table class="table table-striped table-sm table-bordered my-0 mydatatable ">
+                                    <thead class="table-dark ">
+                                        <tr>
+                                            <th style="color: var(--bs-orange); ">Author</th>
+                                            <th style="color: var(--bs-orange); ">Project Title</th>
+                                            <th style="color: var(--bs-orange); ">Short Description&nbsp;</th>
+                                            <th style="color: var(--bs-orange); ">Link</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="text-align: left;background: rgb(238,244,247); ">Alfred Wegner</td>
+                                            <td>
+                                                <strong>Continental Drift Theory</strong>
+                                            </td>
+                                            <td>
+                                                <br>
+                                                <strong>Alfred</strong> Wegener. Except for a few converts, and those like Cloos
+                                                <br>who couldn't accept the concept but was clearly fascinated by it, the
+                                                <br> international geological community's reaction to Wegener's theory was
+                                                <br>militantly hostile
+                                                <br>
+                                                <br>
+                                            </td>
+                                            <td style="background: rgb(238,244,247); ">
+                                                <a href="# ">home for intelligence</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="background: rgb(238,244,247); ">Albert Einstein</td>
+                                            <td>
+                                                <strong>Relativity Theory</strong>
+                                            </td>
+                                            <td>
+                                                <br>The test of a good
+                                                <strong>theory</strong> is if it describes observed reality and makes reliable and accurate predictions about the future. By these standards, general
+                                                <strong>relativity</strong> is a good theory—it successfully predicts these deviations in orbits, bolstering our faith in the
+                                                <strong>theory</strong>.
+                                                <br>
+                                                <br>
+                                            </td>
+                                            <td style="background: rgb(238,244,247); ">
+                                                <a href="# ">home for physics</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: left;background: rgb(238,244,247); ">Alfred Wegner</td>
+                                            <td>
+                                                <strong>Continental Drift Theory</strong>
+                                            </td>
+                                            <td>
+                                                <br>
+                                                <strong>Alfred</strong> Wegener. Except for a few converts, and those like Cloos
+                                                <br>who couldn't accept the concept but was clearly fascinated by it, the
+                                                <br> international geological community's reaction to Wegener's theory was
+                                                <br>militantly hostile
+                                                <br>
+                                                <br>
+                                            </td>
+                                            <td style="background: rgb(238,244,247); ">
+                                                <a href="# ">home for intelligence</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="background: rgb(238,244,247); ">Albert Einstein</td>
+                                            <td>
+                                                <strong>Relativity Theory</strong>
+                                            </td>
+                                            <td>
+                                                <br>The test of a good
+                                                <strong>theory</strong> is if it describes observed reality and makes reliable and accurate predictions about the future. By these standards, general
+                                                <strong>relativity</strong> is a good theory—it successfully predicts these deviations in orbits, bolstering our faith in the
+                                                <strong>theory</strong>.
+                                                <br>
+                                                <br>
+                                            </td>
+                                            <td style="background: rgb(238,244,247); ">
+                                                <a href="# ">home for physics</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr></tr>
+                                    </tfoot>
+                                </table>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End: DataTable - Fully BSS Editable -->
-        <!-- Start: divider-text-middle -->
-        <div style="text-align:center;">
-            <h2 class="divider-style" style="margin: 40px 40px 40px;  color: rgb(10, 14, 14);">
-                <span>
+        </div>
+    </section>
+    <!-- End: DataTable - Fully BSS Editable -->
+    <!-- Start: divider-text-middle -->
+    <div style="text-align:center; ">
+        <h2 class="divider-style " style="margin: 40px 40px 40px; color: rgb(10, 14, 14); ">
+            <span>
                     <strong>Project Submission</strong>
                     <br>
                 </span>
-            </h2>
-        </div>
-        <!-- End: divider-text-middle -->
-        <!-- Start: 1 Row 1 Column -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12" style="text-align: left;">
-                    <p style="color: rgb(16,19,84);font-size: 16px;">
-                        <strong>AGGES</strong>
-                        club exist to help solve some challenges through collaboration. This means we&nbsp; have to do projects to impact change where necessary. To achieve this we&nbsp; accept project proposal from anyone with an idea
+        </h2>
+    </div>
+    <!-- End: divider-text-middle -->
+    <!-- Start: 1 Row 1 Column -->
+    <div class="container ">
+        <div class="row ">
+            <div class="col-md-12 " style="text-align: left; ">
+                <p style="color: rgb(16,19,84);font-size: 16px; ">
+                    <strong>AGGES</strong> club exist to help solve some challenges through collaboration. This means we&nbsp; have to do projects to impact change where necessary. To achieve this we&nbsp; accept project proposal from anyone with an idea
                     then we work on it as a team. Do you have any burning&nbsp; idea?, It's just wireless away; fill in the form below and submit we start collaborating&nbsp;.
-                    </p>
-                </div>
+                </p>
             </div>
         </div>
-        <!-- End: 1 Row 1 Column -->
-        <!-- Start: Responsive Form -->
-        <div class="container">
-            <div>
-                <form action="https://formspree.io/f/xdobkypd" method="POST">
-                    <div class="form-group mb-3">
-                        <div id="formdiv">
-                            <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
-                                <div class="col-md-8 offset-md-1">
-                                    <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px; color: cornflowerblue;">Enter your email:</p>
-                                </div>
-                                <div class="col-md-10 offset-md-1">
-                                    <input
-                                        class="form-control"
-                                        type="email"
-                                        name="_replyto"
-                                        style="margin-left:0px;font-family:Roboto, sans-serif;"
-                                        name="project-idea"
-                                        placeholder="e.g examble@mail.com"
-                                    >
-                                </div>
+    </div>
+    <!-- End: 1 Row 1 Column -->
+    <!-- Start: Responsive Form -->
+    <div class="container ">
+        <div>
+            <form action="https://formspree.io/f/xdobkypd " method="POST ">
+                <div class="form-group mb-3 ">
+                    <div id="formdiv ">
+                        <div class="row " style="margin-right:0px;margin-left:0px;padding-top:24px; ">
+                            <div class="col-md-8 offset-md-1 ">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px; color: cornflowerblue; ">Enter your email:</p>
                             </div>
-                            <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
-                                <div class="col-md-8 offset-md-1">
-                                    <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px; color: cornflowerblue;">What's your Idea all about?</p>
-                                </div>
-                                <div class="col-md-10 offset-md-1">
-                                    <input
-                                        class="form-control"
-                                        type="text"
-                                        name=" Title"
-                                        style="margin-left:0px;font-family:Roboto, sans-serif;"
-                                        name="project-idea"
-                                        placeholder="Idea?"
-                                    >
-                                </div>
+                            <div class="col-md-10 offset-md-1 ">
+                                <input class="form-control " type="email " name="_replyto " style="margin-left:0px;font-family:Roboto, sans-serif; " name="project-idea " placeholder="e.g examble@mail.com ">
                             </div>
-                            <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
-                                <div class="col-md-8 offset-md-1">
-                                    <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px; color: cornflowerblue;">Describe your project.</p>
-                                </div>
-                                <div class="col-md-10 offset-md-1">
-                                    <textarea
-                                        name="message"
-                                        class="form-control"
-                                        style="font-family:Roboto, sans-serif;font-size:14px;"
-                                        placeholder="provide detailed information and tools required for this project."
-                                    ></textarea>
-                                </div>
+                        </div>
+                        <div class="row " style="margin-right:0px;margin-left:0px;padding-top:24px; ">
+                            <div class="col-md-8 offset-md-1 ">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px; color: cornflowerblue; ">What's your Idea all about?</p>
                             </div>
-                            <div class="row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
-                                <div class="col-12 col-md-4 offset-md-4">
-                                    <button class="btn btn-light btn-lg" style="margin-left: 16px;color: #00008b;background: var(--bs-orange);" type="submit">Submit</button>
-                                    <span style="text-decoration-line: underline;">
-                                        <p style="margin-left: 33.3333%; color:rgb(6, 22, 94);">
+                            <div class="col-md-10 offset-md-1 ">
+                                <input class="form-control " type="text " name=" Title " style="margin-left:0px;font-family:Roboto, sans-serif; " name="project-idea " placeholder="Idea? ">
+                            </div>
+                        </div>
+                        <div class="row " style="margin-right:0px;margin-left:0px;padding-top:24px; ">
+                            <div class="col-md-8 offset-md-1 ">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px; color: cornflowerblue; ">Describe your project.</p>
+                            </div>
+                            <div class="col-md-10 offset-md-1 ">
+                                <textarea name="message " class="form-control " style="font-family:Roboto, sans-serif;font-size:14px; " placeholder="provide detailed information and tools required for this project. "></textarea>
+                            </div>
+                        </div>
+                        <div class="row " style="margin-right:0px;margin-left:0px;padding-top:24px; ">
+                            <div class="col-12 col-md-4 offset-md-4 ">
+                                <button class="btn btn-light btn-lg " style="margin-left: 16px;color: #00008b;background: var(--bs-orange); " type="submit ">Submit</button>
+                                <span style="text-decoration-line: underline; ">
+                                        <p style="margin-left: 33.3333%; color:rgb(6, 22, 94); ">
                                             <strong>OR</strong>
                                         </p>
                                     </span>
-                                </div>
                             </div>
                         </div>
                     </div>
-                </form>
-                <!-- Start: Custom Upload File -->
-                <div style="width: 200px;margin-top: 0px;margin-left:40%;, margin-bottom: 45px ;">
-                    <div class="text-center mt-2">
-                        <a>
-                            <button onclick="window.location.href='https://tinyurl.com/3zj92kch';" class="btn btn-primary">Upload Project details On Drive</button>
-                        </a>
-                    </div>
                 </div>
-                <!-- End: Custom File Upload -->
+            </form>
+            <!-- Start: Custom Upload File -->
+            <div style="width: 200px;margin-top: 0px;margin-left:40%;, margin-bottom: 45px ; ">
+                <div class="text-center mt-2 ">
+                    <a>
+                        <button onclick="window.location.href='https://tinyurl.com/3zj92kch' ; " class="btn btn-primary ">Upload Project details On Drive</button>
+                    </a>
+                </div>
             </div>
+            <!-- End: Custom File Upload -->
         </div>
-        <!-- Start: Bold BS4 Animated Back To Top -->
-        <a class="cd-top js-cd-top cd-top--fade-out cd-top--show" style="background-image: url(&quot;../img/important/cd-top-arrow.svg&quot;);" href="#">Top</a>
-        <!-- End: Bold BS4 Animated Back To Top -->
-        <footer id="footer">
-            <div style="background: #01011f ; text-align: center; margin-top: 20px; padding:10px">
-                <p style="color:#fff; font-family: raleway">Copyright © JKUAT AGGES | Developer: Alfred Wegner</p>
-            </div>
-        </footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/dataTables.bootstrap4.min.js"></script>
-        <script src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
-        <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.flash.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
-        <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
-        <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.print.min.js"></script>
-        <script src="../scripts/script.min.js"></script>
-    </body>
+    </div>
+    <!-- Start: Bold BS4 Animated Back To Top -->
+    <a class="cd-top js-cd-top cd-top--fade-out cd-top--show " style="background-image: url(&quot;../assests/images/complete/important/cd-top-arrow.svg&quot;); " href="# ">Top</a>
+    <!-- End: Bold BS4 Animated Back To Top -->
+    <footer id="footer ">
+        <div style="background: #01011f ; text-align: center; margin-top: 20px; padding:10px ">
+            <p style="color:#fff; font-family: raleway ">Copyright © JKUAT AGGES | Developer: Alfred Wegner</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/dataTables.bootstrap4.min.js "></script>
+    <script src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js "></script>
+    <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.flash.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js "></script>
+    <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js "></script>
+    <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.print.min.js "></script>
+    <script src="../scripts/script.min.js "></script>
+</body>
+
 </html>

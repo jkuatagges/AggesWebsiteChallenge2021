@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
+        "assests",
         "blog",
         "GEGIS",
         "Geomatic",
@@ -8,6 +9,6 @@
         "navcol"
     ],
     "workbench.colorCustomizations": {
-        "titleBar.activeBackground": "#ed97fa"
+        "titleBar.activeBackground": "#09b34b"
     }
 }
