@@ -1,6 +1,3 @@
-
-
-
 /*Everything for project is here ......*/
 
 div.jumbotron.carousel-hero {
@@ -14,15 +11,15 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.hero-nature {
-    background-image: url(../img/projects/architect-at-the-construction.jpg)
+    background-image: url(../assests/images/complete/projects/architect-at-the-construction.jpg)
 }
 
 div.jumbotron.hero-photography {
-    background-image: url(../img/projects/architects-and-worker.jpg)
+    background-image: url(../assests/images/complete/projects/architects-and-worker.jpg)
 }
 
 div.jumbotron.hero-technology {
-    background-image: url(../img/projects/young-college-students.jpg)
+    background-image: url(../assests/images/complete/projects/young-college-students.jpg)
 }
 
 h1.hero-title,
@@ -64,6 +61,7 @@ span {
     font-style: inherit;
     font-weight: inherit
 }
+
 div.jumbotron.carousel-hero {
     color: #fff;
     text-align: center;
@@ -75,15 +73,15 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.hero-nature {
-    background-image: url(../img/projects/architect-at-the-construction.jpg)
+    background-image: url(../assests/images/complete/projects/architect-at-the-construction.jpg)
 }
 
 div.jumbotron.hero-photography {
-    background-image: url(../img/projects/architects-and-worker.jpg)
+    background-image: url(../assests/images/complete/projects/architects-and-worker.jpg)
 }
 
 div.jumbotron.hero-technology {
-    background-image: url(../img/projects/young-college-students.jpg)
+    background-image: url(../assests/images/complete/projects/young-college-students.jpg)
 }
 
 h1.hero-title,
@@ -127,14 +125,13 @@ span {
 }
 
 .competencesicons {
-    font-size: 30px;
+    font-size: 32px;
     margin-top: 30px
 }
 
 .competencestitles {
     font-size: 27px;
-    margin-top: 10px;
-    margin-bottom: 20px
+    margin-top: 10px
 }
 
 .squareicons {
