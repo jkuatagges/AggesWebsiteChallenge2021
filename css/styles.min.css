@@ -9,6 +9,18 @@
     margin-bottom: 0
 }
 
+.navbar navbar-light navbar-expand-md{
+width: 100%;
+height:auto;
+background-color: #ffffff !important;
+font-weight:bold; 
+box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+font-size: 18px; background: #01011f ;
+position: fixed !important; 
+top:0 !important;
+z-index: 10 !important;
+}
+
 @media (min-width:768px) {
     .navigation-clean-button {
         padding-top: 1rem;
