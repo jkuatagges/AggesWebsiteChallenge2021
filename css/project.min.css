@@ -1,0 +1,299 @@
+/*Everything for project is here ......*/
+
+div.jumbotron.carousel-hero {
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 0
+}
+
+div.jumbotron.hero-nature {
+    background-image: url(../assests/images/complete/projects/architect-at-the-construction.jpg)
+}
+
+div.jumbotron.hero-photography {
+    background-image: url(../assests/images/complete/projects/architects-and-worker.jpg)
+}
+
+div.jumbotron.hero-technology {
+    background-image: url(../assests/images/complete/projects/young-college-students.jpg)
+}
+
+h1.hero-title,
+h2.hero-title,
+h3.hero-title {
+    text-shadow: 0 3px 3px rgba(0, 0, 0, .4);
+    color: #fff
+}
+
+p.hero-subtitle {
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 10px 15px;
+    color: #fff
+}
+
+.plat {
+    border-radius: 0
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: 0 0 0 0 #048f83!important;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #016090;
+    border-color: #016090
+}
+
+.btn.btn-primary {
+    background-color: #048f83!important;
+    border-color: #048f83!important
+}
+
+span {
+    font-style: inherit;
+    font-weight: inherit
+}
+
+.competencestitles {
+    font-size: 27px;
+    margin-top: 10px
+}
+
+.squareicons {
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.competencesparagraph {
+    font-size: 13px;
+    max-width: 280px;
+    margin: auto
+}
+
+.competencesboxes {
+    border: 1px solid gray;
+    transition: .5s
+}
+
+.competencesboxes:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: .25s;
+    border-left: 8px solid #5a5d60;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22)
+}
+
+@media (max-width:991px) {
+    .competencestitles {
+        font-size: 20px
+    }
+}
+
+#user_group_label {
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 12px;
+    border: 2px solid #d3394c;
+    color: #307388;
+    font-weight: 700
+}
+
+input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px
+}
+
+.divider-style {
+    margin-top: 70px;
+    position: relative;
+    margin-right: 40px;
+    margin-left: 40px
+}
+
+.divider-style span {
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5
+}
+
+.divider-style:before {
+    content: "";
+    display: block;
+    border-top: 1px solid #000;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    z-index: 1
+}
+
+.btn-group>.btn-group:not(:first-child)>.btn,
+.btn-group>.btn-group:not(:last-child)>.btn,
+.btn-group>.btn:not(:first-child),
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    background: #56c6c6;
+    border-radius: 20px;
+    font-size: inherit;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    text-shadow: none;
+    padding: .5rem 1rem;
+    transition: background-color .25s;
+    font-size: inherit
+}
+
+* {
+    box-sizing: border-box
+}
+
+p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: .5px;
+    margin: 20px 0 30px
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #ff4b2b;
+    background-color: #ff4b2b;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in
+}
+
+button:active {
+    transform: scale(.95)
+}
+
+button:focus {
+    outline: 0
+}
+
+.contact-clean {
+    background: #f1f7fc;
+    padding: 80px 0
+}
+
+.contact-clean form {
+    max-width: 480px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    color: #505e6c;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .1)
+}
+
+@media (max-width:767px) {
+    .contact-clean {
+        padding: 20px 0
+    }
+    .contact-clean form {
+        padding: 30px
+    }
+}
+
+.contact-clean h2 {
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 36px;
+    color: inherit
+}
+
+.contact-clean .form-group:last-child {
+    margin-bottom: 5px
+}
+
+.contact-clean form .form-control {
+    background: #fff;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .05);
+    outline: 0;
+    color: inherit;
+    padding-left: 12px;
+    height: 42px
+}
+
+.contact-clean form .form-control:focus {
+    border: 1px solid #b2b2b2
+}
+
+.contact-clean form textarea.form-control {
+    min-height: 100px;
+    max-height: 260px;
+    padding-top: 10px;
+    resize: vertical
+}
+
+.contact-clean form .form-control-feedback {
+    height: 42px;
+    line-height: 42px
+}
+
+.contact-clean form .help-block {
+    margin-top: 8px;
+    font-size: 13px
+}
+
+.contact-clean form .btn {
+    padding: 16px 32px;
+    border: none;
+    background: 0 0;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: .9;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .4px;
+    line-height: 1;
+    outline: 0!important
+}
+
+.contact-clean form .btn:hover {
+    opacity: 1
+}
+
+.contact-clean form .btn:active {
+    transform: translateY(1px)
+}
+
+.contact-clean form .btn-primary {
+    background-color: #055ada!important;
+    margin-top: 15px;
+    color: #fff
+}
+
+#formdiv {
+    padding-bottom: 5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    border-radius: 10.2px;
+    box-shadow: 0 0 16px #51cbee
+}
+
+
+/*End of every style concerning Project page*/
