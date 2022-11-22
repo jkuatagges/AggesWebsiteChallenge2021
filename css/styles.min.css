@@ -868,4 +868,10 @@ span {
 }
 
 
-/*Past papers codes... additional non repetitive*/
+/*executive picture style - home page*/
+.rounded-circle{
+height: 160px;
+width:150px;
+margin-left:25%;
+align-self: center;
+}
